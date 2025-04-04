@@ -9,6 +9,28 @@ This project's data was obtained from the Adventure Works Sample Database and en
 Source - https://www.kaggle.com/datasets/algorismus/adventure-works-in-excel-tables
 
 Key Attributes used in this Analysis:
+
+| Column Name          | Description                                                                                                  |
+|----------------------|--------------------------------------------------------------------------------------------------------------|
+| TerritoryID          | Identifier for the sales territory where the order was placed.                                               |
+| CountryRegionCode    | Code representing the country or region associated with the sale.                                            |
+| ProductName          | Name of the product sold.                                                                                    |
+| OrderQty             | Number of units ordered in the sales order.                                                                  |
+| LineTotal            | Total amount for the line item (calculated as unit price multiplied by quantity, adjusted for discounts).    |
+| OrderDate            | Date when the order was placed by the customer.                                                              |
+| TotalDue             | Total amount due for the order, including taxes and any additional fees.                                     |
+| ProductCategory      | Category to which the product belongs (e.g., Bikes, Accessories, Components).                                |
+| TotalRevenue         | Aggregate revenue generated from the order or a series of orders.                                            |
+| SalesOrderID         | Unique identifier for the sales order.                                                                       |
+| CustomerID           | Unique identifier for the customer who placed the order.                                                     |
+| PersonType           | Type of person related to the customer record (such as individual or organization).                          |
+| ReviewDate           | Date when the product or service was reviewed by the customer.                                               |
+| Rating               | Customer or product rating, typically measured on a scale (for example, 1 to 5).                             |
+| Quantity             | Number of items involved in the order (may reflect shipped quantity, distinct from OrderQty if needed).      |
+| ProductID            | Unique identifier for the product.                                                                           |
+| AvgStock             | Average stock level for the product, indicating typical inventory availability over time.                    |
+
+
 ## Analysis
 **Product Analysis**  
 This project examines various product categories to determine the highest revenue-generating items and identify underperforming products. By analyzing profitability and inventory turnover, we can assess which products contribute most to overall sales and which may require strategic adjustments.  
