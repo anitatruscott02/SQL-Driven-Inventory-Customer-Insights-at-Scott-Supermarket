@@ -74,6 +74,19 @@ These insights provide Scott Supermarket with actionable intelligence for optimi
 Out of the dataset, I found 10 distinct regions, indicating that Scott Supermarket operates across 10 different territories. I will now focus on analyzing regional performance to optimize our local strategies.
 
 Total Region -10
+
+| TerritoryID | TerritoryName    | CountryRegionCode |
+|-------------|------------------|-------------------|
+| 1           | Northwest        | US                |
+| 2           | Northeast        | US                |
+| 3           | Central          | US                |
+| 4           | Southwest        | US                |
+| 5           | Southeast        | US                |
+| 6           | Canada           | CA                |
+| 7           | France           | FR                |
+| 8           | Germany          | DE                |
+| 9           | Australia        | AU                |
+| 10          | United Kingdom   | GB                |
  
 - **In which city or territory is each store or branch located?**
 
@@ -119,7 +132,49 @@ At Scott Supermarket, the Bikes category stands out as the top performer, with 9
 | 2011      | 5         | Components      | 31525.96     |
 | 2011      | 5         | Clothing        | 2875.15      |
 | 2011      | 5         | Accessories     | 1695.67      |
-| ...       | ...       | ...             | ...          |
+| 2011      | 6          | Bikes           | 458,910.82         |
+| 2011      | 7          | Bikes           | 1,919,445.21       |
+| 2011      | 7          | Components      | 114,523.02         |
+| 2011      | 7          | Clothing        | 7,038.58           |
+| 2011      | 7          | Accessories     | 3,593.20           |
+| 2011      | 8          | Bikes           | 2,317,589.60       |
+| 2011      | 8          | Components      | 164,317.13         |
+| 2011      | 8          | Clothing        | 8,722.08           |
+| 2011      | 8          | Accessories     | 5,187.93           |
+| 2011      | 9          | Bikes           | 502,073.85         |
+| 2011      | 10         | Bikes           | 4,258,153.85       |
+| 2011      | 10         | Components      | 305,108.87         |
+| 2011      | 10         | Clothing        | 15,740.53          |
+| 2011      | 10         | Accessories     | 9,758.57           |
+| 2011      | 11         | Bikes           | 737,839.82         |
+| 2011      | 12         | Bikes           | 1,283,924.64       |
+| 2011      | 12         | Components      | 23,698.06          |
+| 2011      | 12         | Clothing        | 1,655.14           |
+| 2011      | 12         | Accessories     | 585.41             |
+| 2012      | 1          | Bikes           | 3,804,873.10       |
+| 2012      | 1          | Components      | 151,345.70         |
+| 2012      | 1          | Clothing        | 10,048.19          |
+| 2012      | 1          | Accessories     | 4,360.28           |
+| 2012      | 2          | Bikes           | 1,406,374.23       |
+| 2012      | 2          | Components      | 63,623.65          |
+| 2012      | 2          | Clothing        | 3,652.62           |
+| 2012      | 2          | Accessories     | 1,776.41           |
+| 2012      | 3          | Bikes           | 2,789,357.61       |
+| 2012      | 3          | Components      | 171,325.62         |
+| 2012      | 3          | Clothing        | 9,487.17           |
+| 2012      | 3          | Accessories     | 5,577.84           |
+| 2012      | 4          | Bikes           | 1,481,915.87       |
+| 2012      | 4          | Components      | 141,297.30         |
+| 2012      | 4          | Clothing        | 7,108.08           |
+| 2012      | 4          | Accessories     | 4,279.54           |
+| 2012      | 5          | Bikes           | 2,482,840.92       |
+| 2012      | 5          | Components      | 508,112.53         |
+| 2012      | 5          | Clothing        | 73,171.76          |
+| 2012      | 5          | Accessories     | 10,477.60          |
+| 2012      | 6          | Bikes           | 3,178,084.92       |
+| 2012      | 6          | Components      | 799,484.50         |
+| 2012      | 6          | Clothing        | 103,232.55         |
+| 2012      | 6          | Accessories     | 18,552.39          |
 
 </div>
 
