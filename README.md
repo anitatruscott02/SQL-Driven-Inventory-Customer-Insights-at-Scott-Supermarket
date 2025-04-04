@@ -74,19 +74,20 @@ These insights provide Scott Supermarket with actionable intelligence for optimi
 Out of the dataset, I found 10 distinct regions, indicating that Scott Supermarket operates across 10 different territories. I will now focus on analyzing regional performance to optimize our local strategies.
 
 Total Region -10
-|TerritoryID	|TerritoryName	| CountryRegionCode
-|----------------------|--------------------------------------------------------------------------------------------------------------|
+Here's the table format with the provided data:
 
-| 1	| Northwest	| US |
-| 2	| Northeast	| US |
-| 3	| Central	| US   |
-| 4	| Southwest	| US  |
-| 5	| Southeast	| US |
-| 6	| Canada	| CA |
-| 7	| France	| FR |
-| 8	| Germany	| DE |
-| 9	| Australia	| AU |
-| 10	| United Kingdom	| GB |
+| TerritoryID | TerritoryName    | CountryRegionCode |
+|-------------|------------------|-------------------|
+| 1           | Northwest        | US                |
+| 2           | Northeast        | US                |
+| 3           | Central          | US                |
+| 4           | Southwest        | US                |
+| 5           | Southeast        | US                |
+| 6           | Canada           | CA                |
+| 7           | France           | FR                |
+| 8           | Germany          | DE                |
+| 9           | Australia        | AU                |
+| 10          | United Kingdom   | GB                |
  
 - In which city or territory is each store or branch located?
 
