@@ -75,7 +75,6 @@ Out of the dataset, I found 10 distinct regions, indicating that Scott Supermark
 
 Total Region -10
 |TerritoryID	|TerritoryName	| CountryRegionCode
-                                                            |
 |----------------------|--------------------------------------------------------------------------------------------------------------|
 
 | 1	| Northwest	| US |
