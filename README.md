@@ -179,7 +179,7 @@ In May 2011, Bikes led the pack with $467,709 in revenue, while Components, Clot
 
 - **Which month recorded the highest overall Cost of Goods Sold (COGS)? **
   
-   | SalesMonth | SalesYear | TotalCOGS       |
+| SalesMonth | SalesYear | TotalCOGS      |
 |------------|----------|-----------------|
 | 3          | 2014     | 8097036.3137    |
 
@@ -275,7 +275,7 @@ At Scott Supermarket, several high-value transactions exceed the average order v
  
 - **What is the cumulative sales performance on a daily basis, and how does it reflect overall business growth?**
   
-   | Weekday | HourOfDay | TotalSales |
+| Weekday | HourOfDay | TotalSales |
 |---------|-----------|------------|
 | 1       |           | 4444       |
 | 2       |           | 4875       |
@@ -303,6 +303,7 @@ At Scott Supermarket, sales occur consistently across all weekdays.This suggests
 |-----------------|------------------|
 | Business        | 90775446.9931    |
 | Individual      | 32441339.1228    |
+
 Business customers generate *$90.78M* in total revenue, nearly *3 times* more than Individual customers, who contribute *$32.44M*. This suggests that Scott Supermarket should focus on strengthening B2B relationships and offering bulk purchase incentives.
     
 - **Which customer segment or sales channel drives the highest revenue?**
