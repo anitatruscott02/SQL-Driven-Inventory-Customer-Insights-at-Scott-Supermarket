@@ -330,6 +330,7 @@ Business customers generate *$90.78M* in total revenue, nearly *3 times* more th
 | 9           | SC         | 34             |
 | 10          | IN         | 1913           |
 | 10          | SC         | 38             |
+
 The Customer Type Distribution Across Regions shows that most customers fall under the "IN" (Individual) category, with significantly fewer in the "SC" (Store/Company) category.Scott Supermarket may benefit from targeted regional strategies, such as loyalty programs for individual shoppers in high-volume territories and corporate partnerships in areas with fewer business accounts.
 
 **Customer Analysis**  
