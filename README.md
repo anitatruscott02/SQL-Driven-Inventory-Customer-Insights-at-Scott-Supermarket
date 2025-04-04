@@ -69,7 +69,9 @@ These insights provide Scott Supermarket with actionable intelligence for optimi
 ## Business Questions
 
 **Generic Questions**  
-- How many distinct regions, territories, or cities are represented in the Adventure Works dataset?  
+- How many distinct regions, territories, or cities are represented in the Adventure Works dataset?
+Out of the dataset, I found 10 distinct regions, indicating that Scott Supermarket operates across 10 different territories. I will now focus on analyzing regional performance to optimize our local strategies.
+ 
 - In which city or territory is each store or branch located?
 
 **Product Analysis**  
