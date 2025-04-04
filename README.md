@@ -250,6 +250,20 @@ At Scott Supermarket, only the Bikes category exceeds the average revenue and is
 At Scott Supermarket, monthly sales orders show a steady growth trend over time—from 43 orders in May 2011 to over 2,000 orders by late 2013 and early 2014. This consistent increase indicates an expanding customer base and stronger market presence.
 
 - **What is the average customer rating for each product line?**
+
+| SalesOrderID | TotalDue    | AvgOrderValue |
+|--------------|------------|--------------|
+| 43659       | 23153.2339  | 3915.9951    |
+| 43661       | 36865.8012  | 3915.9951    |
+| 43662       | 32474.9324  | 3915.9951    |
+| 43664       | 27510.4109  | 3915.9951    |
+| 43665       | 16158.6961  | 3915.9951    |
+| 43666       | 5694.8564   | 3915.9951    |
+| 43667       | 6876.3649   | 3915.9951    |
+| 43668       | 40487.7233  | 3915.9951    |
+| 43670       | 6893.2549   | 3915.9951    |
+| 43671       | 9153.6054   | 3915.9951    |
+
   
 At Scott Supermarket, monthly sales orders show a steady growth trend over time—from 43 orders in May 2011 to over 2,000 orders by late 2013 and early 2014. This consistent increase indicates an expanding customer base and stronger market presence.
 
