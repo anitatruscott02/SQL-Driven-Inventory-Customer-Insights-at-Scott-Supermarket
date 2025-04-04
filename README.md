@@ -178,6 +178,7 @@ At Scott Supermarket, the Bikes category stands out as the top performer, with 9
 In May 2011, Bikes led the pack with $467,709 in revenue, while Components, Clothing, and Accessories generated much lower figures. This monthly trend shows that Bikes consistently outperforms the other product lines. I will now focus on strategies to further boost revenue in the supporting categories.
 
 - **Which month recorded the highest overall Cost of Goods Sold (COGS)? **
+  
    | SalesMonth | SalesYear | TotalCOGS       |
 |------------|----------|-----------------|
 | 3          | 2014     | 8097036.3137    |
@@ -185,6 +186,7 @@ In May 2011, Bikes led the pack with $467,709 in revenue, while Components, Clot
 In March 2014, our Cost of Goods Sold peaked at approximately $8,097,036.31. I will now investigate the factors driving this spike to optimize our cost management strategies.
 
 - **Which product line contributes the most to total revenue?**
+  
 | ProductCategory | TotalRevenue         |
 |-----------------|----------------------|
 | Bikes           | 94651172.704731      |
@@ -192,6 +194,7 @@ In March 2014, our Cost of Goods Sold peaked at approximately $8,097,036.31. I w
 At Scott Supermarket, the Bikes category leads revenue generation with approximately $94.65 million. I will now focus on uncovering the key factors behind this success to further enhance our performance.
   
 - **Can we classify each product line as “Good” or “Bad” based on whether its sales exceed the average?**
+
 | ProductCategory | TotalRevenue         | ProductCategoryStatus |
 |-----------------|----------------------|-----------------------|
 | Bikes           | 94651172.704731      | Good                  |
@@ -202,6 +205,7 @@ At Scott Supermarket, the Bikes category leads revenue generation with approxima
 At Scott Supermarket, only the Bikes category exceeds the average revenue and is classified as "Good." The Components, Clothing, and Accessories categories are below average, and I'll focus on strategies to boost their performance.
 
 - **Which store or region sells more products than the average, and how does that compare across product lines?**
+  
 | SalesYear | SalesMonth | TotalSales |
 |-----------|------------|------------|
 | 2011      | 5          | 43         |
@@ -251,6 +255,7 @@ At Scott Supermarket, monthly sales orders show a steady growth trend over time�
 
 **Sales Analysis**  
 - **How do monthly and daily sales trends evolve over time, and what are the peak sales periods?**
+  
 | SalesOrderID | TotalDue    | AvgOrderValue |
 |--------------|-------------|---------------|
 | 43659        | 23153.2339  | 3915.9951     |
@@ -269,6 +274,7 @@ At Scott Supermarket, monthly sales orders show a steady growth trend over time�
 At Scott Supermarket, several high-value transactions exceed the average order value of $3,915.99, with some reaching over $80,000. I will now analyze patterns in these transactions to identify key customer segments driving high-value sales.
  
 - **What is the cumulative sales performance on a daily basis, and how does it reflect overall business growth?**
+  
    | Weekday | HourOfDay | TotalSales |
 |---------|-----------|------------|
 | 1       |           | 4444       |
@@ -282,6 +288,7 @@ At Scott Supermarket, several high-value transactions exceed the average order v
 At Scott Supermarket, sales occur consistently across all weekdays.This suggests strong online or automated order processing.
 
 - **How many high-value transactions (above the average order value) occur, and what can we learn from them?**
+  
 | CustomerSegment | TotalCustomers |
 |-----------------|----------------|
 | Individual      | 18484          |
@@ -291,6 +298,7 @@ At Scott Supermarket, sales occur consistently across all weekdays.This suggests
 
  
 - **How do sales vary by the time of day (e.g., morning, afternoon, evening) and by weekday?**
+  
 | CustomerSegment | TotalRevenue     |
 |-----------------|------------------|
 | Business        | 90775446.9931    |
@@ -298,6 +306,7 @@ At Scott Supermarket, sales occur consistently across all weekdays.This suggests
 Business customers generate *$90.78M* in total revenue, nearly *3 times* more than Individual customers, who contribute *$32.44M*. This suggests that Scott Supermarket should focus on strengthening B2B relationships and offering bulk purchase incentives.
     
 - **Which customer segment or sales channel drives the highest revenue?**
+  
 | TerritoryID | PersonType | TotalCustomers |
 |-------------|------------|----------------|
 | 1           | IN         | 3341           |
