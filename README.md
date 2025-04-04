@@ -74,7 +74,9 @@ These insights provide Scott Supermarket with actionable intelligence for optimi
 Out of the dataset, I found 10 distinct regions, indicating that Scott Supermarket operates across 10 different territories. I will now focus on analyzing regional performance to optimize our local strategies.
 
 Total Region -10
-| TerritoryID	|TerritoryName	| CountryRegionCode|----------------------|--------------------------------------------------------------------------------------------------------------|
+|TerritoryID	|TerritoryName	| CountryRegionCode
+                                                            |
+|----------------------|--------------------------------------------------------------------------------------------------------------|
 
 | 1	| Northwest	| US
 | 2	| Northeast	| US
