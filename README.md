@@ -78,16 +78,16 @@ Total Region -10
                                                             |
 |----------------------|--------------------------------------------------------------------------------------------------------------|
 
-| 1	| Northwest	| US
-| 2	| Northeast	| US
-| 3	| Central	| US
-| 4	| Southwest	| US
-| 5	| Southeast	| US
-| 6	| Canada	| CA
-| 7	| France	| FR
-| 8	| Germany	| DE
-| 9	| Australia	| AU
-| 10	| United Kingdom	| GB
+| 1	| Northwest	| US |
+| 2	| Northeast	| US |
+| 3	| Central	| US   |
+| 4	| Southwest	| US  |
+| 5	| Southeast	| US |
+| 6	| Canada	| CA |
+| 7	| France	| FR |
+| 8	| Germany	| DE |
+| 9	| Australia	| AU |
+| 10	| United Kingdom	| GB |
  
 - In which city or territory is each store or branch located?
 
