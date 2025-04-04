@@ -7,6 +7,8 @@ I have observed that Scott Supermarket is sitting on a wealth of sales and produ
 ## About Data
 This project's data was obtained from the Adventure Works Sample Database and encompasses a wide range of sales transactions and product details from a manufacturing and distribution enterprise. The analysis leverages key tables including SalesOrderHeader, SalesOrderDetail, Production.Product, Production.ProductSubcategory, Production.ProductCategory, Production.ProductReview, Production.ProductInventory, and Sales.Customer. The integrated dataset captures various dimensions of the business, enabling in-depth analyses such as monthly sales trends, product category performance, order accumulation, customer behavior, and inventory turnover.
 Source - https://www.kaggle.com/datasets/algorismus/adventure-works-in-excel-tables
+
+Key Attributes used in this Analysis:
 ## Analysis
 **Product Analysis**  
 This project examines various product categories to determine the highest revenue-generating items and identify underperforming products. By analyzing profitability and inventory turnover, we can assess which products contribute most to overall sales and which may require strategic adjustments.  
