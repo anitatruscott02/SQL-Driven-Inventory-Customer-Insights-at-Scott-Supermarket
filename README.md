@@ -75,19 +75,7 @@ Out of the dataset, I found 10 distinct regions, indicating that Scott Supermark
 
 Total Region -10
 
-| TerritoryID | TerritoryName    | CountryRegionCode |
-|-------------|------------------|-------------------|
-| 1           | Northwest        | US                |
-| 2           | Northeast        | US                |
-| 3           | Central          | US                |
-| 4           | Southwest        | US                |
-| 5           | Southeast        | US                |
-| 6           | Canada           | CA                |
-| 7           | France           | FR                |
-| 8           | Germany          | DE                |
-| 9           | Australia        | AU                |
-| 10          | United Kingdom   | GB                |
- 
+
 - In which city or territory is each store or branch located?
 
 | TerritoryID | TerritoryName     | CountryRegionCode |
@@ -123,8 +111,7 @@ Total Region -10
 **Customer Analysis**  
 - How many unique customer segments are present in the dataset?  
 - Which customer segment contributes the most to sales, both in frequency and total revenue?  
-- What is the gender distribution among customers, and how does it vary across branches or regions?  
-- During which time of day and on which days of the week do customers tend to leave the highest ratings?  
+- What is the gender distribution among customers, and how does it vary across branches or regions?   
 - How do different customer segments respond to promotions based on their purchasing patterns and feedback?
 
 **Inventory Turnover Analysis**
