@@ -194,7 +194,7 @@ ORDER BY SalesYear, SalesMonth, TotalRevenue DESC;
 
 In May 2011, Bikes led the pack with $467,709 in revenue, while Components, Clothing, and Accessories generated much lower figures. This monthly trend shows that Bikes consistently outperforms the other product lines. I will now focus on strategies to further boost revenue in the supporting categories.
 
-- ** Which month recorded the highest overall Cost of Goods Sold (COGS)? **
+-**Which month recorded the highest overall Cost of Goods Sold (COGS)?**
 ```sql
 SELECT TOP 1 
     DATEPART(YEAR, OrderDate) AS SalesYear,
@@ -439,7 +439,7 @@ ORDER BY s.TerritoryID, TotalCustomers DESC;
 The Customer Type Distribution Across Regions shows that most customers fall under the "IN" (Individual) category, with significantly fewer in the "SC" (Store/Company) category.Scott Supermarket may benefit from targeted regional strategies, such as loyalty programs for individual shoppers in high-volume territories and corporate partnerships in areas with fewer business accounts.
 
 **Inventory Turnover Analysis**
-- ** What is the total inventory available for each product category? **
+- **What is the total inventory available for each product category?** 
 ```sql
 SELECT 
     pc.Name AS ProductCategory, 
@@ -460,7 +460,7 @@ ORDER BY TotalInventory DESC;
 
  At Scott Supermarket, Components hold the highest inventory at 47,214 units, followed by Bikes (15,536), Accessories (9,128), and Clothing (5,940). This distribution indicates a need to align inventory levels with sales trends for optimal stock management.
 
-- ** Calculate the total number of units sold per product category **
+- **Calculate the total number of units sold per product category**
 ```sql
 SELECT 
     pc.Name AS ProductCategory, 
@@ -482,7 +482,7 @@ ORDER BY TotalUnitsSold DESC;
 
 At Scott Supermarket, Bikes lead with 90,268 units sold, followed by Clothing at 73,670, Accessories at 61,932, and Components at 49,044. This highlights Bikes as the top performer in sales volume.
 
-- ** What is the inventory turnover ratio for each product category? **
+- **What is the inventory turnover ratio for each product category?**
 ```sql
 -- Compute the Inventory Turnover Ratio per Product Category
 -- Formula: Inventory Turnover = Total Units Sold / Average Inventory
@@ -514,7 +514,7 @@ ORDER BY InventoryTurnoverRatio DESC;
 | Components | 99 |
 At Scott Supermarket, Bikes have the highest inventory turnover ratio at 1,128, followed by Clothing at 383, Accessories at 261, and Components at 99. This indicates that Bikes move quickly off the shelves, while Components may require closer inventory management to better match demand.
 
-- ** How long does it take on average for a product to be sold after being stocked? **
+- **How long does it take on average for a product to be sold after being stocked?**
  ```sql
   -- Identify products with the highest and lowest turnover rates
  WITH AvgInventory AS (
@@ -535,10 +535,10 @@ JOIN AvgInventory ai ON p.ProductID = ai.ProductID
 GROUP BY p.Name, ai.AvgStock
 ORDER BY InventoryTurnoverRatio DESC;
 ```
- ** Table has 266 records and it's a lot to show, you can run the attached sql script **
+ **Table has 266 records and it's a lot to show, you can run the attached sql script**
  At Scott Supermarket, the average time to sell stocked products varies widely—from items selling almost immediately, like the Water Bottle - 30 oz., to others, such as the LL Touring Frame - Blue, 58, taking over 2,000 days to sell. This significant variation suggests a need to review slow-moving inventory and adjust stocking strategies accordingly.
 
-- ** Are there any products with very low sales but high stock levels (overstocking issue)?**
+- **Are there any products with very low sales but high stock levels (overstocking issue)?**
 ```sql
 SELECT 
     p.Name AS ProductName, 
@@ -551,10 +551,10 @@ GROUP BY p.Name, pi.Quantity
 HAVING pi.Quantity > 10 * COALESCE(SUM(sod.OrderQty), 1)  -- Products with 10x more stock than sales
 ORDER BY pi.Quantity DESC;
 ```
- ** Table has 647 records and it's a lot to show, you can run the attached sql script **
+ **Table has 647 records and it's a lot to show, you can run the attached sql script**
  At Scott Supermarket, several items like Seat Lug, Hex Nut 7, and Spokes have extremely high stock levels yet report zero sales, indicating these products are significantly overstocked and require immediate inventory review or promotional clearance.
 
-- Are there any products with high sales but low stock levels (risk of stockouts)?
+- **Are there any products with high sales but low stock levels (risk of stockouts)?**
 ```sql
 SELECT 
     p.Name AS ProductName, 
@@ -570,11 +570,11 @@ ORDER BY TotalSold DESC;
 ```
   At Scott Supermarket, fast-selling products like AWC Logo Cap, Water Bottle - 30 oz., and Sport-100 Helmet, Blue are at risk of stockouts due to their low current inventory compared to high sales volumes. This highlights the need to prioritize these items for prompt restocking.
 
-**Summary:**  
+**Summary**  
 At Scott Supermarket, our SQL analytics reveal that operations span 10 regions with Bikes driving the highest revenue, while inventory data shows clear imbalances, some items are overstocked and others are fast-selling and at risk of stockouts.  
 
-**Recommendation:**  
+**Recommendation**  
 I recommend optimizing inventory management by reducing overstocked items and ensuring timely restocking of fast-moving products. Additionally, enhancing customer targeting based on regional sales trends will help drive profitability.
 
-**Future Work:**  
+**Future Work**  
 Future work should focus on developing predictive models for inventory turnover and demand forecasting, as well as advanced customer segmentation techniques to further refine marketing strategies and improve overall operational efficiency.
