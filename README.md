@@ -76,13 +76,7 @@ Out of the dataset, I found 10 distinct regions, indicating that Scott Supermark
 
 Total Region -10 
 - **In which city or territory is each store or branch located?**
--- In which city or territory is each store or branch located?
-SELECT 
-    TerritoryID, 
-    Name AS TerritoryName, 
-    CountryRegionCode
-FROM 
-    Sales.SalesTerritory;
+```SELECT TerritoryID, Name AS TerritoryName, CountryRegionCode FROM Sales.SalesTerritory;```
 
 
 | TerritoryID | TerritoryName     | CountryRegionCode |
