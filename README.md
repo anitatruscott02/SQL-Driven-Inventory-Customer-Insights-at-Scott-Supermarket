@@ -177,7 +177,7 @@ At Scott Supermarket, the Bikes category stands out as the top performer, with 9
 
 In May 2011, Bikes led the pack with $467,709 in revenue, while Components, Clothing, and Accessories generated much lower figures. This monthly trend shows that Bikes consistently outperforms the other product lines. I will now focus on strategies to further boost revenue in the supporting categories.
 
-- **Which month recorded the highest overall Cost of Goods Sold (COGS)? **
+- ** Which month recorded the highest overall Cost of Goods Sold (COGS)? **
   
 | SalesMonth | SalesYear | TotalCOGS      |
 |------------|----------|-----------------|
@@ -203,8 +203,8 @@ At Scott Supermarket, the Bikes category leads revenue generation with approxima
 | Accessories     | 1272072.883926       | Bad                   |
 
 At Scott Supermarket, only the Bikes category exceeds the average revenue and is classified as "Good." The Components, Clothing, and Accessories categories are below average, and I'll focus on strategies to boost their performance.
-
-- **Which store or region sells more products than the average, and how does that compare across product lines?**
+**Sales Analysis**  
+- **How do monthly sales trends evolve over time?**
   
 | SalesYear | SalesMonth | TotalSales |
 |-----------|------------|------------|
@@ -249,7 +249,7 @@ At Scott Supermarket, only the Bikes category exceeds the average revenue and is
 
 At Scott Supermarket, monthly sales orders show a steady growth trend over time—from 43 orders in May 2011 to over 2,000 orders by late 2013 and early 2014. This consistent increase indicates an expanding customer base and stronger market presence.
 
-- **What is the average customer rating for each product line?**
+- **How many high-value transactions (above the average order value) occur?**
 
 | SalesOrderID | TotalDue    | AvgOrderValue |
 |--------------|------------|--------------|
@@ -264,44 +264,24 @@ At Scott Supermarket, monthly sales orders show a steady growth trend over time�
 | 43670       | 6893.2549   | 3915.9951    |
 | 43671       | 9153.6054   | 3915.9951    |
 
-  
-At Scott Supermarket, monthly sales orders show a steady growth trend over time—from 43 orders in May 2011 to over 2,000 orders by late 2013 and early 2014. This consistent increase indicates an expanding customer base and stronger market presence.
-
-**Sales Analysis**  
-- **How do monthly and daily sales trends evolve over time, and what are the peak sales periods?**
-  
-| SalesOrderID | TotalDue    | AvgOrderValue |
-|--------------|-------------|---------------|
-| 43659        | 23153.2339  | 3915.9951     |
-| 43661        | 36865.8012  | 3915.9951     |
-| 43662        | 32474.9324  | 3915.9951     |
-| 43664        | 27510.4109  | 3915.9951     |
-| 43665        | 16158.6961  | 3915.9951     |
-| 43666        | 5694.8564   | 3915.9951     |
-| 43667        | 6876.3649   | 3915.9951     |
-| 43668        | 40487.7233  | 3915.9951     |
-| 43670        | 6893.2549   | 3915.9951     |
-| 43671        | 9153.6054   | 3915.9951     |
-| 43672        | 6895.41     | 3915.9951     |
-| 43673        |4216.0258    |  3915.9951    |
-
-At Scott Supermarket, several high-value transactions exceed the average order value of $3,915.99, with some reaching over $80,000. I will now analyze patterns in these transactions to identify key customer segments driving high-value sales.
+At Scott Supermarket, several high-value transactions exceed the average order value of $3,915.99, with some reaching over $80,000. I will now analyze patterns in these transactions to identify key customer segments driving high-value sales.
  
-- **What is the cumulative sales performance on a daily basis, and how does it reflect overall business growth?**
+- **What is the cumulative sales performance on weekday basis, and how does it reflect overall business growth?**
   
-| Weekday | HourOfDay | TotalSales |
-|---------|-----------|------------|
-| 1       |           | 4444       |
-| 2       |           | 4875       |
-| 3       |           | 4482       |
-| 4       |           | 4591       |
-| 5       |           | 4346       |
-| 6       |           | 4244       |
-| 7       |           | 4483       |
+| Weekday  | TotalSales |
+|----------|------------|
+| 1        | 4444       |
+| 2        | 4875       |
+| 3        | 4482       |
+| 4        | 4591       |
+| 5        | 4346       |
+| 6        | 4244       |
+| 7        | 4483       |
 
 At Scott Supermarket, sales occur consistently across all weekdays.This suggests strong online or automated order processing.
 
-- **How many high-value transactions (above the average order value) occur, and what can we learn from them?**
+**Customer Analysis**  
+- **How many unique customer segments are present in the dataset?**
   
 | CustomerSegment | TotalCustomers |
 |-----------------|----------------|
@@ -309,9 +289,8 @@ At Scott Supermarket, sales occur consistently across all weekdays.This suggests
 | Business        | 1336           |
 
  Scott Supermarket serves two main customer segments: *18,484 Individual* customers and *1,336 Business* customers. Individual shoppers dominate the customer base, highlighting the need for personalized promotions and loyalty programs.
-
  
-- **How do sales vary by the time of day (e.g., morning, afternoon, evening) and by weekday?**
+- **Which customer segment contributes the most to sales?**
   
 | CustomerSegment | TotalRevenue     |
 |-----------------|------------------|
@@ -320,7 +299,7 @@ At Scott Supermarket, sales occur consistently across all weekdays.This suggests
 
 Business customers generate *$90.78M* in total revenue, nearly *3 times* more than Individual customers, who contribute *$32.44M*. This suggests that Scott Supermarket should focus on strengthening B2B relationships and offering bulk purchase incentives.
     
-- **Which customer segment or sales channel drives the highest revenue?**
+- **Customer Type Distribution Across Regions**
   
 | TerritoryID | PersonType | TotalCustomers |
 |-------------|------------|----------------|
@@ -347,32 +326,53 @@ Business customers generate *$90.78M* in total revenue, nearly *3 times* more th
 
 The Customer Type Distribution Across Regions shows that most customers fall under the "IN" (Individual) category, with significantly fewer in the "SC" (Store/Company) category.Scott Supermarket may benefit from targeted regional strategies, such as loyalty programs for individual shoppers in high-volume territories and corporate partnerships in areas with fewer business accounts.
 
-**Customer Analysis**  
-- How many unique customer segments are present in the dataset?  
-- Which customer segment contributes the most to sales, both in frequency and total revenue?  
-- What is the gender distribution among customers, and how does it vary across branches or regions?  
-- During which time of day and on which days of the week do customers tend to leave the highest ratings?  
-- How do different customer segments respond to promotions based on their purchasing patterns and feedback?
-
 **Inventory Turnover Analysis**
-- What is the total inventory available for each product category?
-- How many units of each product were sold within a specific period (e.g., monthly, yearly)?
-- What is the inventory turnover ratio for each product category?
-- Which products have the highest and lowest inventory turnover rates?
-- How long does it take on average for a product to be sold after being stocked?
-- Are there any products with very low sales but high stock levels (overstocking issue)?
+- ** What is the total inventory available for each product category? **
+  | Product Category | Total Inventory |
+| --- | --- |
+| Components | 47214 |
+| Bikes | 15536 |
+| Accessories | 9128 |
+| Clothing | 5940 |
+
+ At Scott Supermarket, Components hold the highest inventory at 47,214 units, followed by Bikes (15,536), Accessories (9,128), and Clothing (5,940). This distribution indicates a need to align inventory levels with sales trends for optimal stock management.
+
+- ** Calculate the total number of units sold per product category **
+  | Product Category | Total Units Sold |
+| --- | --- |
+| Bikes | 90268 |
+| Clothing | 73670 |
+| Accessories | 61932 |
+| Components | 49044 |
+
+At Scott Supermarket, Bikes lead with 90,268 units sold, followed by Clothing at 73,670, Accessories at 61,932, and Components at 49,044. This highlights Bikes as the top performer in sales volume.
+
+- ** What is the inventory turnover ratio for each product category? **
+| Product Category | Inventory Turnover Ratio |
+| --- | --- |
+| Bikes | 1128 |
+| Clothing | 383 |
+| Accessories | 261 |
+| Components | 99 |
+
+At Scott Supermarket, Bikes have the highest inventory turnover ratio at 1,128, followed by Clothing at 383, Accessories at 261, and Components at 99. This indicates that Bikes move quickly off the shelves, while Components may require closer inventory management to better match demand.
+
+- ** How long does it take on average for a product to be sold after being stocked? **
+ ** Table has 266 records and it's a lot to show, you can run the attached sql script **
+ At Scott Supermarket, the average time to sell stocked products varies widely—from items selling almost immediately, like the Water Bottle - 30 oz., to others, such as the LL Touring Frame - Blue, 58, taking over 2,000 days to sell. This significant variation suggests a need to review slow-moving inventory and adjust stocking strategies accordingly.
+
+- ** Are there any products with very low sales but high stock levels (overstocking issue)?**
+ ** Table has 647 records and it's a lot to show, you can run the attached sql script **
+ At Scott Supermarket, several items like Seat Lug, Hex Nut 7, and Spokes have extremely high stock levels yet report zero sales, indicating these products are significantly overstocked and require immediate inventory review or promotional clearance.
+
 - Are there any products with high sales but low stock levels (risk of stockouts)?
+  At Scott Supermarket, fast-selling products like AWC Logo Cap, Water Bottle - 30 oz., and Sport-100 Helmet, Blue are at risk of stockouts due to their low current inventory compared to high sales volumes. This highlights the need to prioritize these items for prompt restocking.
 
-These questions guide the SQL analyses—ranging from monthly sales trends and product profitability to customer segmentation and behavior—providing actionable insights to refine business strategies at Scott Supermarket.
+**Summary:**  
+At Scott Supermarket, our SQL analytics reveal that operations span 10 regions with Bikes driving the highest revenue, while inventory data shows clear imbalances, some items are overstocked and others are fast-selling and at risk of stockouts.  
 
-## Recommendation
-**Summary of Recommendations for Scott Supermarket**
+**Recommendation:**  
+I recommend optimizing inventory management by reducing overstocked items and ensuring timely restocking of fast-moving products. Additionally, enhancing customer targeting based on regional sales trends will help drive profitability.
 
-Based on my analysis, I recommend focusing on optimizing sales, inventory, and customer engagement at Scott Supermarket:
-
-1. **Sales Optimization**: Launch promotions during peak sales periods, capitalize on high-value transactions through upselling, and enhance marketing efforts around best-selling product categories.
-2. **Inventory Management**: Align stock levels with demand patterns, prepare for seasonal demand by restocking popular items, and strategically place slow-moving products to boost sales.
-3. **Customer Engagement**: Refine customer segmentation and loyalty strategies, tailor promotions to customer types, and address feedback to improve customer satisfaction and retention.
-4. **Operational Enhancements**: Expand investments in high-performing product lines, implement data-driven marketing campaigns, and optimize store efficiency based on sales performance.
-
-By implementing these recommendations, Scott Supermarket can improve profitability, customer satisfaction, and overall operational efficiency.
+**Future Work:**  
+Future work should focus on developing predictive models for inventory turnover and demand forecasting, as well as advanced customer segmentation techniques to further refine marketing strategies and improve overall operational efficiency.
