@@ -56,13 +56,12 @@ To support deeper insights, new attributes are derived from existing columns.
 ### **3. Exploratory Data Analysis (EDA)**  
 SQL-based analysis is conducted to meet the project objectives, leveraging the AdventureWorks dataset:  
 
-- **Sales Trends Analysis:** Monthly and daily sales trends are examined to detect seasonal fluctuations and peak demand periods.  
+- **Sales Trends Analysis:** Monthly sales trends are examined to detect seasonal fluctuations and peak demand periods.  
 - **Revenue Drivers Identification:** Top-performing product categories and individual items are ranked by revenue contribution.  
 - **High-Value Transactions Detection:** Orders exceeding the average transaction value are highlighted to understand high-impact sales patterns.  
-- **Customer Insights:** The most frequent buyers are identified to support loyalty strategies.  
-- **Profitability Ranking:** Products are ranked by profitability, factoring in unit sales and margin.  
+- **Customer Insights:** The most frequent buyers are identified to support loyalty strategies.   
 - **Inventory Turnover Analysis:** Stock movement is evaluated to align supply with demand.  
-- **Product Review Integration:** Customer feedback is merged with sales data to assess satisfaction levels and guide product improvements.  
+ 
 
 These insights provide Scott Supermarket with actionable intelligence for optimizing sales strategies, inventory management, and customer engagement.
 
