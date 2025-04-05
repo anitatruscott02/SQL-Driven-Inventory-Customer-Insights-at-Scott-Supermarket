@@ -80,6 +80,7 @@ Out of the dataset, I found 10 distinct regions, indicating that Scott Supermark
 SELECT TerritoryID, Name AS TerritoryName, CountryRegionCode
 FROM Sales.SalesTerritory;
 ```
+
 | TerritoryID | TerritoryName     | CountryRegionCode |
 |-------------|------------------|-------------------|
 | 1           | Northwest        | US                |
