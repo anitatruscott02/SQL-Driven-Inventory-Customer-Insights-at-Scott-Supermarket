@@ -69,9 +69,10 @@ These insights provide Scott Supermarket with actionable intelligence for optimi
 
 **Generic Questions**  
 - **How many distinct regions are represented in the Adventure Works dataset?**
-<pre> ```sql -- Get total number of distinct regions 
- SELECT COUNT(DISTINCT TerritoryID) AS TotalRegions 
- FROM Sales.SalesTerritory; ``` </pre>
+```sql
+SELECT COUNT(DISTINCT TerritoryID) AS TotalRegions
+FROM Sales.SalesTerritory;
+```
 Out of the dataset, I found 10 distinct regions, indicating that Scott Supermarket operates across 10 different territories. I will now focus on analyzing regional performance to optimize our local strategies.
 
 Total Region -10 
