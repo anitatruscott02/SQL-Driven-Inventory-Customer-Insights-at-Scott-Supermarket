@@ -76,7 +76,7 @@ FROM Sales.SalesTerritory;
 Out of the dataset, I found 10 distinct regions, indicating that Scott Supermarket operates across 10 different territories. I will now focus on analyzing regional performance to optimize our local strategies.
 
 - **In which city or territory is each store or branch located?**
-  ```sql
+```sql
 SELECT TerritoryID, Name AS TerritoryName, CountryRegionCode
 FROM Sales.SalesTerritory;
 ```
